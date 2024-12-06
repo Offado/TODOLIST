@@ -1,0 +1,39 @@
+.items{
+    background: #333;
+    padding: 2%;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    width: 400px;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0px 5px 7px rgba(27, 27, 27);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: hsl(0, 0%, 97%);
+  margin-bottom: 10%;
+  border: 3px solid #333;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+span{
+    color: white;
+}
+
+.completed{
+    background-color: green;
+}

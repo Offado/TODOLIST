@@ -1,0 +1,48 @@
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.input-addTask input {
+  width: 300px;
+  padding: 5px 10px;
+  border: 1px solid #333;
+  font-size: 1rem;
+}
+
+.input-addTask input:hover {
+  width: 300px;
+  padding: 5px 10px;
+  border: 2px solid #333;
+  font-size: 1rem;
+  border-color: burlywood;
+}
+
+.btn-add{
+    background: rgb(60, 231, 60);
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.btn-add:hover{
+    background: green;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.select {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.select select {
+  width: 150px;
+  justify-content: center;
+  text-align: center;
+  padding: 5px 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
