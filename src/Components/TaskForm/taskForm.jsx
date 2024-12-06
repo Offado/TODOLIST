@@ -33,7 +33,7 @@ const TaskForm = ({ addTodo }) => {
   // Fonction de sélection d'option
   const selectOption = () => {
     const selectChange = changer.filter((todo) => {
-      if (option === "status") return todo.status;
+      if (option === "completed") return todo.completed;
       if (option === "actives") return todo.actives;
       return true;
     });
@@ -61,7 +61,7 @@ const TaskForm = ({ addTodo }) => {
       <div className="select">
         <select name="todos" onChange={selectOption}>
           <option value="all">Toutes</option>
-          <option value="status">Terminées</option>
+          <option value="completed">Terminées</option>
           <option value="actives">Actives</option>
         </select>
       </div>

@@ -21,8 +21,8 @@ const TaskList = () => {
   // Marquer comme terminé
   const toggleItem = (index) => {
     setTodos(
-        todos.map((todo) => 
-            todo.id === index.id ? {...todo, status: !todo.status} : todo
+        todos.map((todo, i) =>
+            i === index ? {...todo, status: !todo.status} : todo
         )
     )
   }
